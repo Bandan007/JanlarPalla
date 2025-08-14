@@ -87,4 +87,4 @@ let submitBtn = document.querySelector(".feedback-container>form>#submitBtn");
 ‎}
 ‎
 ‎// Load comments when page loads
-‎document.addEventListener("DOMContentLoaded", displayD
+‎document.addEventListener("DOMContentLoaded", displayData);
