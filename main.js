@@ -27,7 +27,7 @@ async function sendDataToAPI() {
     }
 
     // Send POST request to API
-    let response = await fetch("https://689de687ce755fe6978a6eef.mockapi.io/data/testdataobject", {
+    let response = await fetch("https://689e27d23fed484cf876796d.mockapi.io/janlar-palla/:endpoint", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
