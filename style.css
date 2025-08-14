@@ -5,12 +5,13 @@
 }
 
 .d1 {
-  width: 96vw;
+  width: 100vw;
   height: 100px;
   display: flex;
   background-color: #F3ECE3;
   border-radius: 10px;
   box-shadow: #CC8348 0 0 10px;
+  margin-bottom: 12px;
 }
 
 .Img {
