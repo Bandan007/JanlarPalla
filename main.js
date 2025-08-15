@@ -58,7 +58,7 @@ async function displayData() {
     let commentSection = document.querySelector("#comment-section");
     commentSection.innerHTML = ''; // Clear existing comments
 
-    let response = await fetch("https://689de687ce755fe6978a6eef.mockapi.io/data/testdataobject");
+    let response = await fetch("https://689ed8cf3fed484cf8782e84.mockapi.io/jpla/feedback-comments");
     if (!response.ok) {
       throw new Error("Failed to fetch data from API");
     }
